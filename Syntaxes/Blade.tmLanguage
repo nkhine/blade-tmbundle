@@ -4,12 +4,12 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>jade</string>
+		<string>blade</string>
 	</array>
 	<key>keyEquivalent</key>
 	<string>^~J</string>
 	<key>name</key>
-	<string>Jade</string>
+	<string>Blade</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -18,7 +18,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>keyword.control.import.include.jade</string>
+					<string>keyword.control.import.include.blade</string>
 				</dict>
 			</dict>
 			<key>match</key>
@@ -28,7 +28,7 @@
 			<key>match</key>
 			<string>^(!!!)(\s*[a-zA-Z0-9-_]+)?</string>
 			<key>name</key>
-			<string>keyword.other.doctype.jade</string>
+			<string>keyword.other.doctype.blade</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -36,13 +36,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.comment.jade</string>
+					<string>punctuation.section.comment.blade</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>^\s*(//-?)(?:\s*[^-\s]|\s+\S).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.double-slash.jade</string>
+			<string>comment.line.double-slash.blade</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -52,13 +52,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.section.comment.jade</string>
+					<string>punctuation.section.comment.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^(?!\1\s+|$)</string>
 			<key>name</key>
-			<string>comment.block.jade</string>
+			<string>comment.block.blade</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -68,13 +68,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^(?!\1\s+)</string>
 			<key>name</key>
-			<string>meta.filter.markdown.jade</string>
+			<string>meta.filter.markdown.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -91,13 +91,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^(?!\1\s+)</string>
 			<key>name</key>
-			<string>meta.filter.sass.jade</string>
+			<string>meta.filter.sass.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -114,13 +114,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^(?!\1\s+)</string>
 			<key>name</key>
-			<string>meta.filter.less.jade</string>
+			<string>meta.filter.less.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -137,13 +137,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^(?!\1\s+)(?=\s*.)</string>
 			<key>name</key>
-			<string>meta.filter.coffee.jade</string>
+			<string>meta.filter.coffee.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -160,13 +160,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^(?!\1\s+)</string>
 			<key>name</key>
-			<string>meta.filter.cdata.jade</string>
+			<string>meta.filter.cdata.blade</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -174,27 +174,27 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function.jade</string>
+					<string>storage.type.function.blade</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.begin.jade</string>
+					<string>punctuation.definition.parameters.begin.blade</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>variable.parameter.function.jade</string>
+					<string>variable.parameter.function.blade</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.parameters.end.jade</string>
+					<string>punctuation.definition.parameters.end.blade</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -202,7 +202,7 @@
 			<key>match</key>
 			<string>^\s*(mixin) ([\w\-]+)\s*(\()(.*?)(\))</string>
 			<key>name</key>
-			<string>meta.mixin.jade</string>
+			<string>meta.mixin.blade</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -210,12 +210,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function.jade</string>
+					<string>storage.type.function.blade</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.jade</string>
+					<string>entity.name.function.blade</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -223,7 +223,7 @@
 			<key>match</key>
 			<string>^\s*(mixin) ([\w\-]+)</string>
 			<key>name</key>
-			<string>meta.mixin.jade</string>
+			<string>meta.mixin.blade</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -231,7 +231,7 @@
 			<key>end</key>
 			<string>$</string>
 			<key>name</key>
-			<string>source.js.embedded.jade</string>
+			<string>source.js.embedded.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -254,13 +254,13 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.script.jade</string>
+					<string>entity.name.tag.script.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>^((?=(\1)([\w#\.]|$\n?))|^$\n?)</string>
 			<key>name</key>
-			<string>source.js.embedded.jade</string>
+			<string>source.js.embedded.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -286,7 +286,7 @@
 			<key>match</key>
 			<string>[#!]\{[^\}]+\}</string>
 			<key>name</key>
-			<string>string.interpolated.jade</string>
+			<string>string.interpolated.blade</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -296,12 +296,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>meta.tag.any.jade</string>
+					<string>meta.tag.any.blade</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.jade</string>
+					<string>entity.name.tag.blade</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -314,13 +314,13 @@
 					<key>match</key>
 					<string>\.[\w-]+</string>
 					<key>name</key>
-					<string>meta.tag.attribute.class.jade</string>
+					<string>meta.tag.attribute.class.blade</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>#[\w-]+</string>
 					<key>name</key>
-					<string>meta.tag.attribute.id.jade</string>
+					<string>meta.tag.attribute.id.blade</string>
 				</dict>
 			</array>
 		</dict>
@@ -330,7 +330,7 @@
 			<key>end</key>
 			<string>\)</string>
 			<key>name</key>
-			<string>meta.tag.attribute.jade</string>
+			<string>meta.tag.attribute.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -352,24 +352,24 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.entity.jade</string>
+							<string>punctuation.definition.entity.blade</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.entity.jade</string>
+							<string>punctuation.definition.entity.blade</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(&amp;)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
 					<key>name</key>
-					<string>constant.character.entity.jade</string>
+					<string>constant.character.entity.blade</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>&amp;</string>
 					<key>name</key>
-					<string>invalid.illegal.bad-ampersand.jade</string>
+					<string>invalid.illegal.bad-ampersand.blade</string>
 				</dict>
 			</array>
 		</dict>
@@ -424,7 +424,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.jade</string>
+					<string>punctuation.definition.string.begin.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -434,11 +434,11 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.jade</string>
+					<string>punctuation.definition.string.end.blade</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.jade</string>
+			<string>string.quoted.double.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -456,7 +456,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.jade</string>
+					<string>punctuation.definition.string.begin.blade</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -466,11 +466,11 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.jade</string>
+					<string>punctuation.definition.string.end.blade</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.single.jade</string>
+			<string>string.quoted.single.blade</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -484,7 +484,7 @@
 			<key>match</key>
 			<string>\b([a-zA-Z\-:]+)</string>
 			<key>name</key>
-			<string>entity.other.attribute-name.jade</string>
+			<string>entity.other.attribute-name.blade</string>
 		</dict>
 		<key>tag-stuff</key>
 		<dict>
@@ -506,7 +506,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.jade</string>
+	<string>source.blade</string>
 	<key>uuid</key>
 	<string>C5B73B98-5F2A-42E3-9F0E-028A74A9FE4B</string>
 </dict>
